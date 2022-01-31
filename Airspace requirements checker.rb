@@ -10,7 +10,7 @@ actions = ["Establish communications with ATC", "Be cleared into airspace by ATC
 certs = ["Student Pilot Certificate", "Private Pilot Certificate"]
 
 if airspace == "B" ;
-    puts String(viz[1]) + String(cloud_floors[2]) + String(equipment[0..3]) + String(actions[1]), String(certs[1])
+    puts String(viz[1]) + String(cloud_floors[2]) + String(equipment[0..3]) + String(actions[1]), String(certs[1]) #Surely there must be an easier way to print these things without manually typing String(variable[1]) in front of all of them right
 elsif airspace == "C";
     puts String(viz[1]) + String(cloud_floors[0]) + String(equipment[0..2]) + String(actions[0]), String(certs[0])
 elsif airspace == "D";
